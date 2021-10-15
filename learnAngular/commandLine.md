@@ -1,4 +1,4 @@
-## 安装node版本v10.16.0
+## 安装node版本v10.16.0 node v14.18.1 also can launch
 
 ## 安装angular cli
 npm install -g @angular/cli@11.2.14
@@ -34,3 +34,18 @@ npm install bootstrap@4.0.0-alpha.4
     "src/styles.css",
     "node_modules/bootstrap/dist/css/bootstrap.min.css"   //后加的内容
 ],
+
+## vs code安裝代碼格式化工具
+Prettier Now
+
+
+## offical demo:  https://angular.io/start
+ng generate component product-alerts
+ng generate component product-list
+ng generate component top-bar
+ng generate component product-details
+ng generate component cart
+ng generate component shipping 
+
+### a service is an instance of a class that you can make available to any part of your application using Angular's dependency injection system.
+ng generate service cart
